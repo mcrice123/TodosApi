@@ -39,6 +39,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (8.0.0)
+    bcrypt-ruby (3.0.1)
     builder (3.2.3)
     byebug (10.0.0)
     concurrent-ruby (1.0.5)
@@ -138,6 +139,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  bcrypt-ruby (~> 3.0.0)
   byebug
   database_cleaner (= 1.6.1)
   factory_girl_rails (~> 4.0)
